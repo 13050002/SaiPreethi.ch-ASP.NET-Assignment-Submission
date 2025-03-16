@@ -1,0 +1,9 @@
+@model OrderProcessingSystem.Models.Order
+
+<h2>Order Summary</h2>
+<p>Order Amount: $@Model.OrderAmount</p>
+<p>Customer Type: @Model.CustomerType</p>
+<p>Discount: $@Model.Discount</p>
+<p>Final Total: $@Model.FinalTotal</p>
+
+<a href="/Order/Index">Place Another Order</a>
