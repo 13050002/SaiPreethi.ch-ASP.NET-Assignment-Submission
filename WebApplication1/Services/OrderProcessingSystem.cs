@@ -1,6 +1,9 @@
-namespace WebApplication1.Models
 
-{
+namespace WebApplication1.Services;
+using WebApplication1.Models;
+
+
+
     public class OrderProcessingSystem
     {
         public void ProcessOrder()
@@ -15,4 +18,4 @@ namespace WebApplication1.Models
             }
         }
     }
-}
+

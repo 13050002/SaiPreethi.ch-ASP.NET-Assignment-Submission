@@ -1,3 +1,5 @@
+using WebApplication1.Models;
+
 public class OrderService
 {
     public Order CalculateDiscount(Order order)
@@ -13,5 +15,10 @@ public class OrderService
 
         order.FinalTotal = order.OrderAmount - order.Discount;
         return order;
+    }
+
+    internal object CalculateDiscount1(Order order)
+    {
+        throw new NotImplementedException();
     }
 }
